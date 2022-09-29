@@ -35,7 +35,6 @@ public class RecebendoPontus : MonoBehaviour
 
             SceneManager.LoadScene("Ganhou", LoadSceneMode.Single);
 
-
         }
     
     }
@@ -47,8 +46,6 @@ public class RecebendoPontus : MonoBehaviour
        
         Destroy(obj);
     }
-
-
 
     public void Save(int pontos)
     {

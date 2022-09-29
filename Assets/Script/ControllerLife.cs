@@ -49,14 +49,7 @@ public class ControllerLife : MonoBehaviour
             Destroy(ballGame);
             ballGame = SpawnBall.BallInstantiate(ball, spawn);
         }
-        //else if (VidaAtual == 1)
-        //{
-        //    vidaOn.enabled = true;
-        //    vidaOff.enabled = false;
-        //    VidaAtual -= 1;
-        //    Destroy(ballGame);
-        //    ballGame = SpawnBall.BallInstantiate(ball, spawn);
-        //}
+       
         else if (VidaAtual == 1)
         {
             vidaOn3.enabled = true;
